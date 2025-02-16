@@ -42,6 +42,7 @@ article{
     background-color: var(--White);
     max-width: 320px;
     border-radius: 20px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 4.77%);
 }
 
 figure{
