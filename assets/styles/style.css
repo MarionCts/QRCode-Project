@@ -1,0 +1,62 @@
+/* COLORS */
+
+:root{
+    --Slate_900: hsl(218 44 22);
+    --Slate_500: hsl(216 15 48);
+    --Slate_300: hsl(212 45 89);
+    --White: hsl(0 0 100);
+}
+
+/* FONTS */
+
+h1{
+    font-family: 'Outfit', serif;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: var(--Slate_900);
+    font-size: 22px;
+    margin: 0 0 16px 0;
+}
+
+p{
+    font-family: 'Outfit', serif;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: var(--Slate_500);
+    font-size: 15px;
+    margin: 0;
+}
+
+body{
+    background-color: var(--Slate_300);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    background-color: var(--White);
+    max-width: 320px;
+    border-radius: 20px;
+}
+
+figure{
+    margin: 16px 16px 24px 16px;
+
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figcaption{
+    margin: 0 16px 40px 16px;
+    padding: 0 16px 0 16px;
+    text-align: center;
+}
