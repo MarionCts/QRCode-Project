@@ -3,7 +3,6 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    text-align: center;
 }
 
 /* COLORS */
@@ -15,7 +14,11 @@
     --White: hsl(0 0 100);
 }
 
-/* FONTS */
+/* TEXTS */
+
+h1, p{
+    text-align: center;
+}
 
 h1{
     font-family: 'Outfit', serif;
@@ -35,6 +38,8 @@ p{
     color: var(--Slate_500);
     font-size: 15px;
 }
+
+/* GENERAL */
 
 body{
     background-color: var(--Slate_300);
