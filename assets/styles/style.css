@@ -1,3 +1,11 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+}
+
 /* COLORS */
 
 :root{
@@ -26,7 +34,6 @@ p{
     letter-spacing: 0.2px;
     color: var(--Slate_500);
     font-size: 15px;
-    margin: 0;
 }
 
 body{
@@ -45,19 +52,21 @@ article{
     box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 4.77%);
 }
 
-figure{
-    margin: 16px 16px 24px 16px;
-
-}
-
 img{
     display: block;
     max-width: 100%;
     border-radius: 10px;
 }
 
+figure{
+    padding: 16px 16px 40px 16px;
+
+}
+
 figcaption{
-    margin: 0 16px 40px 16px;
-    padding: 0 16px 0 16px;
-    text-align: center;
+    margin: 0 16px 0 16px;
+}
+
+h1{
+    margin: 24px 0 16px 0;
 }
